@@ -1,11 +1,11 @@
-diff --git a/test/rekt/pingsource_test.go b/test/rekt/pingsource_test.go
-index 42629cd43..f664eadc7 100644
---- a/test/rekt/pingsource_test.go
-+++ b/test/rekt/pingsource_test.go
-@@ -93,6 +93,7 @@ func TestPingSourceWithCloudEventData(t *testing.T) {
+diff --git a/test/experimental/eventtype_autocreate_test.go b/test/experimental/eventtype_autocreate_test.go
+index 52ed72876..37186dcda 100644
+--- a/test/experimental/eventtype_autocreate_test.go
++++ b/test/experimental/eventtype_autocreate_test.go
+@@ -59,6 +59,7 @@ func TestBrokerEventTypeAutoCreate(t *testing.T) {
  }
  
- func TestPingSourceWithEventTypes(t *testing.T) {
+ func TestPingSourceEventTypeMatch(t *testing.T) {
 +	t.Skip("Skip, while SO deployes a eventing release, which does not support EventTypes v1beta2")
  	t.Parallel()
  
